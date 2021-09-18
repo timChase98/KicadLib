@@ -1,0 +1,73 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5206
+D Digital potentiometer, 256 position, 6 output, SPI interface
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5253_5254.pdf
+$ENDCMP
+#
+$CMP AD5253
+D Digital potentiometer, 64 position, 4 output, I2C interface, TSSOP-20
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5253_5254.pdf
+$ENDCMP
+#
+$CMP ADG714
+D CMOS, Low Voltage, Serially Controlled, Octal SPST Switch, I2C interface, TSSOP-24
+K CMOS, Switch, I2C
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf
+$ENDCMP
+#
+$CMP ATmega16U4-AU
+D 16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega16U4RC-AU
+D 16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, RC Osc, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega32U4-AU
+D 16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega32U4RC-AU
+D 16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, RC Osc, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP NC7SZ157
+D 2-1 mux
+$ENDCMP
+#
+$CMP SolderJumper_3_Bridged12
+D 3-pole Solder Jumper, pins 1+2 closed/bridged
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP relay
+D Omron G5G relay, Miniature Single Pole, SPDT, 10A
+K Miniature Single Pole Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
+$CMP relay-jake
+D Omron G5G relay, Miniature Single Pole, SPDT, 10A
+K Miniature Single Pole Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
+#End Doc Library
