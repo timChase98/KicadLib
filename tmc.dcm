@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC86
+D Quad 2-input XOR
+K TTL XOR2
+F http://www.ti.com/lit/gpn/sn74HC86
+$ENDCMP
+#
 $CMP AD5206
 D Digital potentiometer, 256 position, 6 output, SPI interface
 K digital potentiometer
@@ -48,6 +54,42 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
+$CMP Motor_Servo
+D Servo Motor (Futaba, HiTec, JR connector)
+K Servo Motor
+F http://forums.parallax.com/uploads/attachments/46831/74481.png
+$ENDCMP
+#
+$CMP Motor_Servo_Futaba_J
+D Servo Motor (Futuba J-connector)
+K Servo Motor
+F http://forums.parallax.com/uploads/attachments/46831/74481.png
+$ENDCMP
+#
+$CMP Motor_Servo_Grapner_JR
+D Servo Motor (Graupner JR connector)
+K Servo Motor
+F http://forums.parallax.com/uploads/attachments/46831/74481.png
+$ENDCMP
+#
+$CMP Motor_Servo_Hitec
+D Servo Motor (HiTec connector)
+K Servo Motor
+F http://forums.parallax.com/uploads/attachments/46831/74481.png
+$ENDCMP
+#
+$CMP Motor_Servo_JR
+D Servo Motor (JR connector)
+K Servo Motor
+F http://forums.parallax.com/uploads/attachments/46831/74481.png
+$ENDCMP
+#
+$CMP Motor_Servo_Robbe
+D Servo Motor (Robbe connector)
+K Servo Motor
+F http://forums.parallax.com/uploads/attachments/46831/74481.png
+$ENDCMP
+#
 $CMP NC7SZ157
 D 2-1 mux
 $ENDCMP
@@ -68,6 +110,12 @@ $CMP relay-jake
 D Omron G5G relay, Miniature Single Pole, SPDT, 10A
 K Miniature Single Pole Relay
 F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
+$CMP xor3
+D Quad 2-input XOR
+K TTL XOR2
+F 74xx/74ls86.pdf
 $ENDCMP
 #
 #End Doc Library
